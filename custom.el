@@ -72,10 +72,11 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:stipple nil :background "MistyRose" :foreground "blue4" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :width normal :height 160))))
+ '(default ((t (:stipple nil :background "black" :foreground "#e0dfdb" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :width normal :height 160))))
  '(buffers-tab ((t (:foreground "black" :background "Gray80" :size "10" :slant normal))))
- '(cursor ((t (:background "red"))))
- '(highlight ((t (:background "LightSteelBlue1"))))
+ '(cursor ((t (:background "goldenrod"))))
+ '(region ((t (:background "cadet blue"))))
+ '(highlight ((t (:background "dark olive green"))))
  '(js2-warning-face ((((class color) (background light)) (:foreground "orange" :underline "orange"))))
  '(sh-heredoc ((t (:foreground "firebrick"))))
  '(tabbar-default ((t (:inherit variable-pitch :background "gray75" :foreground "gray10" :height 0.8))))
